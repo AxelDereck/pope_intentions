@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'model/Intention.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -44,17 +46,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  Intention _curIntention;
 
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+  @override
+  void initState() {
+    super.initState();
+    _curIntention = new Intention("feb-2019", 2019, "Février", "La traite des personnes : Pour l’accueil généreux des victimes de la traite des personnes, de la prostitution forcée et de la violence.");
   }
 
   @override
@@ -71,7 +68,9 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: Center(
+      body: _buildGUI(),
+      /*
+      Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
@@ -101,11 +100,41 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+      */
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: () {},
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+
+  Widget _buildGUI() {
+    return ListView(
+      padding: const EdgeInsets.only(top: 30.0),
+      children: <Widget>[
+        ListTile(
+          title: Center(
+            child: Text(_selectedIntentionName(), style: TextStyle(fontSize: 18, fontFamily: 'Candara'),),
+          )
+        ),
+        ListTile(
+          title: _selectedText(),
+        )
+      ]
+    );
+  }
+
+  Widget _selectedText() {
+    return Center(
+      child: Text(
+        _curIntention.intention,
+        style: TextStyle(fontSize: 30),
+      )
+    );
+  }
+
+  String _selectedIntentionName() {
+    return "${_curIntention.month} ${_curIntention.year}";
   }
 }
