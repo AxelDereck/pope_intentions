@@ -1,0 +1,76 @@
+{
+    "intentions": [
+        {
+            "key":      "jan-2019",
+            "year":     2019,
+            "month":    "Janvier",
+            "text":     "Les jeunes à l’école de Marie : Pour les jeunes, en particulier ceux d’Amérique Latine, afin qu’à l’exemple de Marie ils répondent à l’appel du Seigneur pour communiquer au monde la Joie de l’Évangile."
+        },
+        {
+            "key":      "feb-2019",
+            "year":     2019,
+            "month":    "Février",
+            "text":     "La traite des personnes : Pour l’accueil généreux des victimes de la traite des personnes, de la prostitution forcée et de la violence."
+        },
+        {
+            "key":      "mar-2019",
+            "year":     2019,
+            "month":    "Mars",
+            "text":     "Reconnaissance des droits des communautés chrétiennes : Pour les communautés chrétiennes, en particulier celles qui sont persécutées, afin qu’elles sentent la proximité du Christ et que soient reconnus leurs droits."
+        },
+        {
+            "key":      "apr-2019",
+            "year":     2019,
+            "month":    "Avril",
+            "text":     "Médecins et humanitaires en zones de combat : Pour les médecins et humanitaires présents dans les zones de combat qui risquent leur vie pour sauver celle des autres."
+        },
+        {
+            "key":      "may-2019",
+            "year":     2019,
+            "month":    "Mai",
+            "text":     "L’Eglise en Afrique ferment d’unité : Pour qu’à travers l’engagement de ses membres l’Eglise en Afrique soit ferment d’unité entre les peuples, signe d’espérance pour ce continent."
+        },
+        {
+            "key":      "jun-2019",
+            "year":     2019,
+            "month":    "Juin",
+            "text":     "Style de vie des prêtres : Pour les prêtres, qu’à travers la sobriété et l’humilité de leur vie, ils s’engagent dans une solidarité active avec les plus pauvres."
+        },
+        {
+            "key":      "jul-2019",
+            "year":     2019,
+            "month":    "Juillet",
+            "text":     "Intégrité de la justice : Pour que ceux qui administrent la justice, œuvrent avec intégrité, et que l’injustice qui traverse le monde n’ait pas le dernier mot."
+        },
+        {
+            "key":      "aug-2019",
+            "year":     2019,
+            "month":    "Août",
+            "text":     "Familles, laboratoire d’humanisation : Pour que les familles, par une vie de prière et d’amour, deviennent toujours davantage    « laboratoire d’humanisation »."
+        },
+        {
+            "key":      "sep-2019",
+            "year":     2019,
+            "month":    "Septembre",
+            "text":     "La protection des océans : Pour que les politiques, scientifiques et économistes travaillent ensemble pour la protection des mers et des océans."
+        },
+        {
+            "key":      "oct-2019",
+            "year":     2019,
+            "month":    "Octobre",
+            "text":     "Printemps missionnaire dans l’Eglise : Pour que le souffle de l’Esprit Saint suscite un nouveau printemps missionnaire dans l’Eglise."
+        },
+        {
+            "key":      "nov-2019",
+            "year":     2019,
+            "month":    "Novembre",
+            "text":     "Dialogue et réconciliation au Proche-Orient : Pour le Proche Orient, où diverses composantes religieuses partagent le même espace de vie, afin que surgisse un esprit de dialogue, de rencontre et de réconciliation."
+        },
+        {
+            "key":      "dec-2019",
+            "year":     2019,
+            "month":    "Décembre",
+            "text":     "L’avenir des enfants, une priorité : Pour que chaque pays prenne les moyens nécessaires pour faire de l’avenir des enfants une priorité, particulièrement ceux qui sont en souffrance."
+        }
+    ]
+}
