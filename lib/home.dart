@@ -18,25 +18,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    //_intentions = loadIntentions();
-    // FutureBuilder<List<Intention>>(
-    /*
-    FutureBuilder<dynamic>(
-      future: getData(),
-      builder: (context, snapshot) {
-        if (snapshot.hasData) {
-          var data = snapshot.data;
-          data.forEach((line) {
-            Intention nIntention = Intention.fromJson(line);
-            setState(() {
-              _intentions.add(nIntention);
-            });
-            // print("$line");
-          });
-        } else {}
-      },
-    );
-    */
     //loadIntentions();
     _showTodayIntention();
     _curIntention = new Intention("feb-2019", 2019, "Février", "La traite des personnes : Pour l’accueil généreux des victimes de la traite des personnes, de la prostitution forcée et de la violence.");
